@@ -129,9 +129,8 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 .site-header {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
 }
 
 .lessons {
@@ -152,12 +151,6 @@ img {
     flex-wrap: wrap;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 .row {
     flex-wrap: wrap;
 }
@@ -166,6 +159,10 @@ img {
 @media screen and (max-width: 768px) {
     .site-header h1 {
         color: blue
+    }
+
+    .container {
+        padding: 2.5rem;
     }
 
 }
